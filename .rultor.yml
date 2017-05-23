@@ -1,0 +1,6 @@
+docker:
+  as_root: true
+  image: "yegor256/rultor"
+
+merge:
+  fast-forward: only
