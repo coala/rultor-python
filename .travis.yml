@@ -16,7 +16,7 @@ script:
      git clone https://github.com/coala/coala-bears &&
      cd coala-bears &&
      pip3 install -r requirements.txt &&
-     python3 -m nltk.downloader punkt maxent_treebank_pos_tagger \
+     python3 -m nltk.downloader punkt \
                                 averaged_perceptron_tagger &&
      npm install &&
      export PATH=$(npm bin):$PATH &&
