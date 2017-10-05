@@ -1,5 +1,5 @@
 FROM yegor256/rultor
-MAINTAINER Lasse Schuirmann lasse.schuirmann@gmail.com
+LABEL MAINTAINER="Lasse Schuirmann <lasse.schuirmann@gmail.com>"
 
 RUN locale-gen en_US.UTF-8
 ENV LANG=en_US.UTF-8
