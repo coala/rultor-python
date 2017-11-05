@@ -1,0 +1,14 @@
+# for yml files
+[YAML]
+files = **.yml
+bears = YAMLLintBear, LineLengthBear
+
+[Markdown]
+files = **.md
+bears = MarkdownBear
+
+[text]
+bears = SpaceConsistencyBear
+files =
+    LICENSE, **.sh, .travis.yml, .rultor.yml
+use_spaces = True
